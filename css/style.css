@@ -1,0 +1,117 @@
+/*---varibles--*/
+
+:root{
+    --Pale_blue: hsl(243, 100%, 93%);
+    --Grayish_Blue: hsl(229, 7%, 55%);
+    --Dark_Blue: hsl(228, 56%, 26%);
+    --Very_Dark_Blue: hsl(229, 57%, 11%);
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%); }
+
+*{
+    padding: 0;  margin: 0;  box-sizing: border-box; }
+
+
+
+.main__container{
+    height: 100vh;   background: var(--Very_Dark_Blue) url(../img/bg-desktop.png) bottom left no-repeat; 
+     display: flex;   justify-content: center;   align-items: center;  }
+
+.div__container{
+    display: flex;  justify-content: center;   align-items: flex-end; }
+
+.div__head{
+    height: 130px;
+    border: 1px solid #000;
+    padding: 10px 0 10px  10px;
+   
+    border-top-right-radius: 40%;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+
+    background-color: var(--Dark_Blue);
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.icon__container{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    background-color: var(--Very_Dark_BlueDark_Blue);
+    
+}
+
+.div__content{
+    height: 100px;
+    border: 1px solid #000;
+    flex: 0 1 500px;
+    padding: 20px;
+    position: relative;
+    margin-left: 25px;
+    background-color: var(--Dark_Blue);
+    color: #fff;
+
+}
+.div__content p{
+    font-size: 110%;
+}
+
+.div__content .sp2{
+    font-size: 80%;
+    margin-top: 45px;
+}
+
+.outer{
+        border: 1px solid #000;
+        height: 10px;
+        margin-top: 7px;
+        width: 420px;
+        border-radius: 5px;
+}
+
+.inner{
+    width: 290px;
+    color: #a52a2a;
+    height: 8px;
+    background:linear-gradient(hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    border-radius: 5px;
+}
+
+.in-inner{
+    height: 7px;
+    background-color: #fff;
+    width: 5px;
+    border-radius: 5px;
+}
+
+
+
+.div__white{
+    background-color: #fff;
+    height: 40px;
+    width: 70px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 74%, 100% 100%, 85% 74%, 0% 75%);
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    border-top-left-radius: 15%;
+border-bottom-left-radius: 25%;}
+
+
+/*-----FOOTER-----*/
+
+.attribution {
+    font: 16px arial, sans-serif;
+    background-color: var(--pale_blue);
+    text-align: center; 
+    padding: 15px;   }
+    
+.attribution a { color: #3e52a3;   }
